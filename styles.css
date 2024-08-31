@@ -1,6 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     transition: .3s;
+    margin: 0px;
+}
+
+body {
+    margin: 0px
 }
 
 .header, .footer, .hero {
@@ -51,6 +56,10 @@ button {
 button:hover {
     background-color: white;
     color:#3882F6;
+}
+
+.call button {
+   border-color: #F9FAF8;
 }
 
 .info h3 {
