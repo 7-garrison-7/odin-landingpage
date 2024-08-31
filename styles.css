@@ -129,3 +129,14 @@ padding: 75px;
     flex: 1;
 }
 
+.call-container :nth-child(1) {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-container :nth-child(2) {
+    color: #dfdfdf;
+    font-size: 16px;
+    font-weight: normal;
+}
