@@ -1,8 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
+    transition: .3s;
 }
 
-.header, .footer {
+.header, .footer, .hero {
     background-color: #1F2937;
 }
 
@@ -21,7 +22,8 @@
 
 #header-links, #hero-subtext {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-weight: 300;
 }
 
 ul {
@@ -29,4 +31,30 @@ ul {
     padding: 0px;
     list-style: none;
     text-decoration: none;
+}
+
+#hero-maintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #3882F6;
+}
+
+button:hover {
+    background-color: white;
+    color:#3882F6;
+}
+
+.info h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
