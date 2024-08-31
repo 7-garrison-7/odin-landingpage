@@ -98,3 +98,14 @@ padding: 75px;
 .info, .call {
     background-color: #F9FAF8;
 }
+
+.header {
+    display: flex;
+    padding: 30px 250px;
+}
+
+#header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
