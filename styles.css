@@ -25,7 +25,7 @@ body {
     color: #F9FAF8;
 }
 
-#header-links, #hero-subtext {
+#header-links, #hero-subtext, #footer-text {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
@@ -95,3 +95,6 @@ padding: 75px;
     font-weight: 100;
 }
 
+.info, .call {
+    background-color: #F9FAF8;
+}
