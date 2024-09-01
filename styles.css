@@ -67,6 +67,11 @@ button:hover {
    border-color: #F9FAF8;
 }
 
+.call button :hover {
+    background-color: white;
+    color:#3882F6;
+}
+
 .info h3 {
     font-size: 36px;
     font-weight: 900;
@@ -138,7 +143,7 @@ padding: 75px;
     font-weight: 900;
 }
 
-.call-container :nth-child(2) {
+.call-container div :nth-child(2) {
     color: #dfdfdf;
     font-size: 16px;
     font-weight: normal;
@@ -169,4 +174,19 @@ padding: 75px;
 
 .quote {
     padding: 100px 300px;
+}
+
+.call {
+    padding: 75px 300px;
+}
+
+.call-container {
+    padding: 50px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.call-container :nth-child(1) {
+    margin-right: auto;
 }
