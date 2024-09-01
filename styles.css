@@ -43,9 +43,11 @@ ul {
     color: #F9FAF8;
     font-weight: 900;
     padding-bottom: 0px;
+    height: fit-content;
 }
 
 button {
+    width: fit-content;
     font-size: 16px;
     border-radius: 8px;
     padding: 8px 32px;
@@ -123,9 +125,10 @@ padding: 75px;
 .hero-content-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
-.hero * {
+.hero-content-wrapper, #img-placeholder {
     flex: 1;
 }
 
@@ -162,4 +165,8 @@ padding: 75px;
 
 .img-list div {
     flex-basis: 158px;
+}
+
+.quote {
+    padding: 100px 300px;
 }
